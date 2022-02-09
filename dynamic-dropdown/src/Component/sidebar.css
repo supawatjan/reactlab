@@ -1,0 +1,34 @@
+.sidebar-container{
+    width: 100%;
+    padding-left:1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.info-box{
+    width: 100%;
+}
+.info-box li{
+    list-style-type: none;
+    padding: 0.5rem 1rem 1rem 1rem;
+    width: 100%;
+    height: fit-content;
+    background-color: #DD2F41;
+}
+.info-box li:hover{
+    filter: brightness(110%);
+    
+}
+.info-box li:active{
+    transform: translateY(1.5px);
+}
+
+.info{
+    
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.info:hover{
+    color: #FAD749;
+}

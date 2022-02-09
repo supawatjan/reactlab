@@ -1,0 +1,86 @@
+.container {
+    background-color: #fff;
+    width:400px;
+    height: 80vh;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 50%);
+    border-radius: 10px;
+
+    
+}
+.display{
+    background-color: rgb(50, 50, 50);
+    width: 400px;
+    height: 20vh;
+    padding: 0 10px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2.4rem;
+    color: white;
+    overflow: hidden;
+    
+}
+.display span{
+    width: 373px;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+    
+}
+.btn-container{
+    background-color: #fff;
+
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 8px;
+    row-gap: 5px;
+}
+
+.btn{
+    width: 100%;
+    min-height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(224, 222, 222);
+    cursor: pointer;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    filter: brightness(110%);
+}
+.btn:active{
+    transform: translateY(1.5px);
+}
+
+.equal{
+    grid-row-end: span 2;
+}
+.zero{
+    grid-column-end: span 2 ;
+}
+.number,.clear{
+    font-size: 1.2rem;
+}
+.clear{
+    font-weight: bold;
+}
+.point{
+    font-size: 2rem;
+}
+.operator{
+    background-color: rgb(46, 136, 46);
+}
+.delete{
+    font-size: 1.3rem;
+}

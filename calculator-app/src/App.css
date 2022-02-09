@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+header{
+  text-align: center;
+  padding-top: 10px ;
+}
+
+section{
+  max-width: 400px;
+  min-height: 85vh;
+  margin: 0 auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

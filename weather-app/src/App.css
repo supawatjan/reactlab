@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Dongle', sans-serif;
+  cursor: pointer;
+}
+
+header{
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(20, 20, 20);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  padding: 0 2rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  
+}
+
+main{
+  width: 100vw;
+  min-height: 90vh ;
+  background-image: radial-gradient(circle,#48b4e0,#97c7da);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.city-btn{
+  min-width: 50% ;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button.city-choice{
+  width: 5rem;
+  height: 100%;
+  background-color: transparent;
+  border:none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+button.city-choice:hover{
+  color:#ff9900;
+}
+button.city-choice.active{
+  color:#ff9900;
+  font-size: 1.6rem;
+}
+.container{
+  width: 50vw;
+  min-height: 60vh;
+  padding: 2rem;
+  border-radius: 30px;
+  background-color: rgba(250, 250, 250, 0.294);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #000;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.city{
+  height: 20%;
+  font-size: 3rem;
+  font-weight: 700;
+  color:#ff9900;
+}
+.temp{
+  height: 40%;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.min-max{
+  height: 15%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #555;
+
+}
+.min-max span{
+  font-size: 1.5rem;
+}
+span.s-number{
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.info{
+  height: 25% ;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(20, 20, 20, 0.349);
+}
+.detail{
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+div.uv,div.humidity{
+  font-size: 1.5rem;
+  color: #555;
+  text-align: center;
+}

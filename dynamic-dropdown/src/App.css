@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100vw;
+  height: 15vh ;
+  padding: 1.5rem 3rem;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #DD2F41;
+  color: #fff;
+}
+header>span{
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 50vw;
+}
+
+nav{
+  width: 50vw;
+  min-height: 10vh;
+  max-height: 15vh;
+
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+section{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+aside{
+  width: 20vw;
+  min-height: 85vh ;
+  background-color: #DD2F41;
+}
+
+main{
+  width: 80vw;
+  min-height: 85vh ;
+}

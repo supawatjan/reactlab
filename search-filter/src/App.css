@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #121212;
+}
+
+header{
+  height: 8vh;
+  background-color: #161616;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:#fff;
+  padding: 2rem;
+  
+}
+.search-bar-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-bottom: 20px;
+  outline-style: transparent;
+
+}
+.search-input{
+  width: 70%;
+  /* margin: 5px auto; */
+  min-height: 3rem;
+  font-size: 1.2rem;
+  padding: 5px 1.5rem;
+  margin-top: 1rem;
+  border-radius: 50px;
+  border: none;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/111px-Vector_search_icon.svg.png) ;
+  background-repeat: no-repeat;
+  background-size: 1.2rem;
+  background-position: right 30px center ;
+}
+.search-input:focus{
+  outline: none;
+}
+
+
+section{
+  max-width: 70vw ;
+  min-height: 90vh;
+  background-color:#181818;
+  margin-inline: auto ;
+  /* margin-top: 1rem; */
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 20%);
+}

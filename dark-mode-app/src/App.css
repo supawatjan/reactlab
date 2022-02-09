@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+
+header, main{
+  display: flex ;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 2rem;
+
+}
+
+header{
+  justify-content: end;
+  align-items: center;
+}
+header span {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+main{
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 468px;
+}
+
+main h1 {
+  font-weight: 900;
+}
+
+main img {
+  width: 50%;
+}
+
+header.dark {
+  background-color: rgb(12, 12, 13);
+  color: #fff;
+}
+header.light {
+  background-color: rgb(29, 169, 173);
+}
+
+main.dark {
+  background-color: rgb(20, 20, 21);
+  color: white;
+  
+}
+
+.dark .content p{
+  color: #FF9700;
+}

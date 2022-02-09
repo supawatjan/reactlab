@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  background-color: #FFF;
+  height: 4.5rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 0.4em rgb(35 55 80 / 30%) ;
+  margin-bottom: 5px;
+}
+header h1{
+  text-align: center;
+  margin: auto 0;
+  color:rgb(29, 97, 29) ;
+  
+}
+header img{
+  margin-right: 1rem;
+}
+
+section {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.924);
+  min-height: 87.25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 50vw;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgb(35 55 80 / 30%) 0px 6px 12px;
+
+}
+
+.currency{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.currency select {
+  padding: 0.5rem;
+  width: 20%;
+  color: #000;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 6px;
+  
+}
+.currency input {
+  padding: 0.5rem;
+  border: 1px solid ;
+  width: 60%;
+  text-align: end;
+  color: #000;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 6px;
+  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.symbol {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  color: rgb(29, 97, 29);
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+}
+
+select:focus, input:focus{
+  outline-color: #299729;
+}

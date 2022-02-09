@@ -1,0 +1,30 @@
+.food-display-container{
+    width: 100%;
+    padding: 0.5rem
+}
+ul.food-item-container.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(min-content, max-content);
+    
+}
+
+li.food-item{
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 250px;
+    height: 300px;
+}
+.grid-item-1,.grid-item-2,.grid-item-3{
+    justify-self: center;
+}
+
+.food-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.food-item p {
+    text-align: center;
+}
