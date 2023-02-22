@@ -2,7 +2,7 @@ import { createContext, useEffect, useState} from 'react';
 import testImages from './testImages';
 
 function DataProvider({children}) {
-    const apiKey = `Y4mgKGrfjTLsxsZDzrVCW6NoREmmuvmzVKRvnC2_PqI`
+    const apiKey = process.env.API_KEY
     const [images, setImage] = useState([])
     const [apiPage, setApiPage] = useState(1)
     const [isLoading, setIsLoading] = useState(false)
